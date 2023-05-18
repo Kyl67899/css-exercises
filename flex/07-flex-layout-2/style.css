@@ -22,6 +22,8 @@ body {
   display: flex;
 }
 
+/* footer */
+
 .footer {
   height: 72px;
   background: #eee;
@@ -31,6 +33,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* footer */
+
+/* sidebar */
 
 .sidebar {
   width: 300px;
@@ -50,6 +56,18 @@ li{
   margin-bottom: 16px;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* sidebar */
+
+/* content */
 .content{
   padding: 32px;
   display: flex;
@@ -64,3 +82,10 @@ li{
   margin: 16px;
   width: 300px;
 }
+
+.card:hover{
+  color: white;
+  background-color: rgb(14, 103, 198);
+}
+
+/* content */
